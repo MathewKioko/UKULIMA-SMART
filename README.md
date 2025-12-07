@@ -155,10 +155,11 @@ We welcome all kinds of contributions from the community! 🌍 Whether you're a 
 1. 🍴 **Fork** the repository
 2. 👯 **Clone** your fork:  
    ```bash
-   git clone https://github.com/your-username/ai-crop-doctor.git
+   git clone https://github.com/mwakidenis/shamba-smart-scan.git
 
 ---
 
-Happy farming! 🌻  
+Happy farming! 🌻 
+##
 _– **Made with ❤️ by Mwaki Denis**😁🤝
 
