@@ -1,0 +1,147 @@
+
+import React, { useEffect } from "react";
+import { Toaster } from "@/components/ui/toaster";
+import { Toaster as Sonner } from "@/components/ui/sonner";
+import { TooltipProvider } from "@/components/ui/tooltip";
+import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
+import { BrowserRouter, Routes, Route, useLocation } from "react-router-dom";
+import Landing from "./pages/Landing";
+import Index from "./pages/Index";
+import NotFound from "./pages/NotFound";
+import Auth from "./pages/Auth";
+import SpecialistChat from "./pages/SpecialistChat";
+import DiseaseLibrary from "./pages/DiseaseLibrary";
+import CommunityForum from "./pages/CommunityForum";
+import VideoLibrary from "./pages/VideoLibrary";
+import ProfilePage from "./pages/ProfilePage";
+import Subscription from "./pages/Subscription";
+import PlantTimeline from "./pages/PlantTimeline";
+import { AuthProvider } from "./components/AuthProvider";
+import { RequireAuth } from "./components/RequireAuth";
+import { NotificationProvider } from "./components/NotificationProvider";
+import { LanguageProvider } from "./contexts/LanguageContext";
+import DroneAnalysis from "./pages/DroneAnalysis";
+import PestPrediction from "./pages/PestPrediction";
+import Partnerships from "./pages/Partnerships";
+
+// Page transition wrapper
+const PageTransition = ({ children }: { children: React.ReactNode }) => {
+  const location = useLocation();
+  
+  useEffect(() => {
+    // Scroll to top on page change
+    window.scrollTo(0, 0);
+  }, [location.pathname]);
+  
+  return (
+    <div className="page-transition">
+      {children}
+    </div>
+  );
+};
+
+// Create a React component to wrap the application
+const App = () => {
+  // Create a new QueryClient instance within the component
+  const queryClient = new QueryClient();
+
+  return (
+    <QueryClientProvider client={queryClient}>
+      <AuthProvider>
+        <LanguageProvider>
+          <NotificationProvider>
+            <TooltipProvider>
+            <Toaster />
+            <Sonner />
+            <BrowserRouter>
+              <Routes>
+                <Route path="/" element={<Landing />} />
+                <Route path="/auth" element={<Auth />} />
+                <Route path="/scan" element={
+                  <PageTransition>
+                    <RequireAuth>
+                      <Index />
+                    </RequireAuth>
+                  </PageTransition>
+                } />
+                <Route path="/history" element={
+                  <PageTransition>
+                    <RequireAuth>
+                      <Index />
+                    </RequireAuth>
+                  </PageTransition>
+                } />
+                <Route path="/about" element={
+                  <PageTransition>
+                    <Index />
+                  </PageTransition>
+                } />
+                <Route path="/specialist-chat" element={
+                  <PageTransition>
+                    <RequireAuth>
+                      <SpecialistChat />
+                    </RequireAuth>
+                  </PageTransition>
+                } />
+                <Route path="/disease-library" element={
+                  <PageTransition>
+                    <DiseaseLibrary />
+                  </PageTransition>
+                } />
+                <Route path="/community-forum" element={
+                  <PageTransition>
+                    <CommunityForum />
+                  </PageTransition>
+                } />
+                <Route path="/video-library" element={
+                  <PageTransition>
+                    <VideoLibrary />
+                  </PageTransition>
+                } />
+                <Route path="/profile" element={
+                  <PageTransition>
+                    <RequireAuth>
+                      <ProfilePage />
+                    </RequireAuth>
+                  </PageTransition>
+                } />
+                <Route path="/subscription" element={
+                  <PageTransition>
+                    <Subscription />
+                  </PageTransition>
+                } />
+                <Route path="/plant-timeline" element={
+                  <PageTransition>
+                    <RequireAuth>
+                      <PlantTimeline />
+                    </RequireAuth>
+                  </PageTransition>
+                } />
+                <Route path="/drone-analysis" element={
+                  <PageTransition>
+                    <DroneAnalysis />
+                  </PageTransition>
+                } />
+                <Route path="/pest-prediction" element={
+                  <PageTransition>
+                    <PestPrediction />
+                  </PageTransition>
+                } />
+                <Route path="/partnerships" element={
+                  <PageTransition>
+                    <Partnerships />
+                  </PageTransition>
+                } />
+                {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
+                <Route path="*" element={<NotFound />} />
+              </Routes>
+            </BrowserRouter>
+          </TooltipProvider>
+        </NotificationProvider>
+      </LanguageProvider>
+      </AuthProvider>
+    </QueryClientProvider>
+  );
+};
+
+export default App;
