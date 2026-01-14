@@ -4,7 +4,8 @@ UKULIMA SMART is an AI-assisted smart agriculture platform focused on **early cr
 
 The system combines **computer vision**, **real-time data**, and **domain-specific agricultural knowledge** to help farmers detect issues early, reduce losses, and improve yields.
 
-Live Demo: [https://ukulimasmart.vercel.app]((https://ukulimasmart.vercel.app/))
+🔗 **Live Demo:** [ukulimasmart.vercel.app](https://ukulimasmart.vercel.app)
+
 
 
  Problem Statement
