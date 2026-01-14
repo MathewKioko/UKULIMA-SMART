@@ -11,7 +11,7 @@ const FeatureSection = () => {
           <span className="inline-block px-3 py-1 rounded-full bg-green-100 text-green-800 font-medium text-sm mb-2">🤖 AI TECHNOLOGY</span>
           <h2 className="text-3xl font-bold text-green-800 mb-4">How Our AI Protects Your Crops 🌿</h2>
           <p className="text-lg text-green-700 max-w-3xl mx-auto">
-            Crop Doctor uses advanced machine learning algorithms trained on over 50,000 images to diagnose plant diseases with up to 95% accuracy.
+            UKULIMA SMART uses advanced machine learning algorithms trained on over 50,000 images to diagnose plant diseases with up to 95% accuracy.
           </p>
         </div>
 

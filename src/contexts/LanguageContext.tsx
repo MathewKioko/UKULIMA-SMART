@@ -20,8 +20,8 @@ const languages: Language[] = [
     flag: '🇺🇸',
     translations: {
       app: {
-        title: 'AI Crop Doctor',
-        tagline: 'Advanced Plant Disease Detection',
+        title: 'UKULIMA SMART',
+        tagline: 'World-Class AI-Powered Smart Farming',
       },
       navigation: {
         scan: 'Scan',
@@ -32,7 +32,7 @@ const languages: Language[] = [
         partnerships: 'Partnerships',
       },
       scan: {
-        title: 'Crop Doctor AI',
+        title: 'UKULIMA SMART AI',
         description: 'Our advanced AI model analyzes plant images to detect diseases and provide treatment recommendations',
         uploadImage: 'Upload plant image',
         analyze: 'Analyze',

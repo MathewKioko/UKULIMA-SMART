@@ -36,7 +36,7 @@ const Navigation = ({ activeTab = "", setActiveTab = () => {} }: NavigationProps
             <div className="flex-shrink-0 flex items-center">
               <Link to="/" className="flex items-center space-x-2">
                 <span className="text-2xl">🌿</span>
-                <span className="font-bold text-gray-900 text-lg hidden md:block">AI Crop Doctor</span>
+                <span className="font-bold text-gray-900 text-lg hidden md:block">UKULIMA SMART</span>
               </Link>
               
               {/* Display premium badge if user has premium subscription */}

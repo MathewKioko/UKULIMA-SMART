@@ -566,7 +566,7 @@ const Partnerships = () => {
                         <div>
                           <h4 className="font-medium">Field Implementation</h4>
                           <p className="text-sm text-gray-600">
-                            Deploy AI Crop Doctor in your agricultural programs
+                            Deploy UKULIMA SMART in your agricultural programs
                           </p>
                         </div>
                       </div>
@@ -617,15 +617,15 @@ const Partnerships = () => {
                   <CardContent className="space-y-3">
                     <div className="flex items-center gap-3">
                       <Mail className="h-4 w-4 text-gray-600" />
-                      <span className="text-sm">partnerships@aicropdoctor.org</span>
+                      <span className="text-sm">partnerships@ukulima-smart.com</span>
                     </div>
                     <div className="flex items-center gap-3">
                       <Phone className="h-4 w-4 text-gray-600" />
-                      <span className="text-sm">+1 (555) 123-CROP</span>
+                      <span className="text-sm">+254 790 767347</span>
                     </div>
                     <div className="flex items-center gap-3">
                       <MapPin className="h-4 w-4 text-gray-600" />
-                      <span className="text-sm">Global Operations Center</span>
+                      <span className="text-sm">Mama Ngina Street, Embu, Kenya</span>
                     </div>
                   </CardContent>
                 </Card>

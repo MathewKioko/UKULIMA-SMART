@@ -9,13 +9,13 @@ const TestimonialsSection = () => {
       initial: "J",
       name: "Ann Njeru. 👨‍🌾",
       role: "Small-scale Farmer",
-      text: "Crop Doctor has transformed how I manage my farm. Identifying diseases early has saved me thousands in potential crop losses. Highly recommend! 🌱"
+      text: "UKULIMA SMART has transformed how I manage my farm. Identifying diseases early has saved me thousands in potential crop losses. Highly recommend! 🌱"
     },
     {
       initial: "S",
       name: "Stephen Ndwiga. 👩‍🌾",
       role: "Urban Gardener",
-      text: "As a hobby gardener, I was always struggling with plant diseases. Crop Doctor makes it so easy to identify and treat problems! My garden has never looked better. 🌿"
+      text: "As a hobby gardener, I was always struggling with plant diseases. UKULIMA SMART makes it so easy to identify and treat problems! My garden has never looked better. 🌿"
     },
     {
       initial: "R",
@@ -32,7 +32,7 @@ const TestimonialsSection = () => {
           <span className="inline-block px-3 py-1 rounded-full bg-green-100 text-green-800 font-medium text-sm mb-2">💬 TESTIMONIALS</span>
           <h2 className="text-3xl font-bold text-green-800 mb-4">What Our Users Say 🌟</h2>
           <p className="text-lg text-green-700 max-w-3xl mx-auto">
-            Thousands of farmers and gardeners trust Crop Doctor to protect their plants.
+            Thousands of farmers and gardeners trust UKULIMA SMART to protect their plants.
           </p>
         </div>
 

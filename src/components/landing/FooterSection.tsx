@@ -8,7 +8,7 @@ const FooterSection = () => {
       <div className="container mx-auto px-4">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           <div>
-            <h3 className="text-xl font-bold mb-4">AI Crop Doctor</h3>
+            <h3 className="text-xl font-bold mb-4">UKULIMA SMART</h3>
             <p className="mb-4 text-green-200">
               Revolutionizing farming with AI-powered disease detection and expert agricultural advice.
             </p>
@@ -74,7 +74,7 @@ const FooterSection = () => {
         
         <div className="border-t border-green-700 mt-12 pt-8 flex flex-col md:flex-row justify-between items-center">
           <p className="text-green-300 text-sm">
-            © {new Date().getFullYear()} AI Crop Doctor. All rights reserved.
+            © {new Date().getFullYear()} UKULIMA SMART. All rights reserved.
           </p>
           <div className="mt-4 md:mt-0 flex items-center">
             <span className="text-green-400 text-sm">Made with ❤️ in Kenya</span>

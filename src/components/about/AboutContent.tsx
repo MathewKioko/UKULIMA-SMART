@@ -7,13 +7,13 @@ const AboutContent = () => {
   return (
     <Card className="max-w-3xl mx-auto">
       <CardHeader>
-        <CardTitle className="text-2xl text-green-800">About Crop Doctor AI</CardTitle>
+        <CardTitle className="text-2xl text-green-800">About UKULIMA SMART</CardTitle>
       </CardHeader>
       <CardContent className="prose prose-green max-w-none">
-        <p>Crop Doctor is an AI-powered application designed to help farmers and gardeners identify plant diseases and get treatment recommendations quickly using advanced machine learning technology.</p>
+        <p>UKULIMA SMART is an AI-powered application designed to help farmers and gardeners identify plant diseases and get treatment recommendations quickly using advanced machine learning technology.</p>
         
         <h3 className="text-xl font-semibold text-green-700 mt-6">Our Story</h3>
-        <p>Founded in 2025 by a team of agricultural scientists and AI engineers, Crop Doctor emerged from a simple idea: make advanced plant disease diagnosis accessible to everyone. What started as a research project at the University of Agricultural Sciences quickly grew into a mission to revolutionize how farmers worldwide protect their crops.</p>
+        <p>Founded in 2025 by a team of agricultural scientists and AI engineers, UKULIMA SMART emerged from a simple idea: make advanced plant disease diagnosis accessible to everyone. What started as a research project at the University of Agricultural Sciences quickly grew into a mission to revolutionize how farmers worldwide protect their crops.</p>
         
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6 my-6">
           <div className="bg-green-50 p-4 rounded-lg flex flex-col items-center text-center">
@@ -87,7 +87,7 @@ const AboutContent = () => {
         
         <div className="bg-green-50 p-4 rounded-md mt-6">
           <h3 className="text-lg font-semibold text-green-700">Need Help?</h3>
-          <p className="text-green-600">For support or feedback about our AI technology, please contact us at support@cropdoctor.com</p>
+          <p className="text-green-600">For support or feedback about our AI technology, please contact us at support@ukulima.com</p>
         </div>
       </CardContent>
     </Card>

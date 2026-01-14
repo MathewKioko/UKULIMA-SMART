@@ -15,13 +15,13 @@ const Footer = () => {
             <div className="flex items-center space-x-2 text-green-700 mb-4">
               <img 
                 src="/placeholder.svg" 
-                alt="Crop Doctor Logo" 
+                alt="UKULIMA SMART Logo" 
                 className="w-8 h-8 text-green-500" 
               />
-              <span className="text-xl font-bold">Crop Doctor</span>
+              <span className="text-xl font-bold">UKULIMA SMART</span>
             </div>
             <p className="text-green-600 text-sm mb-4">
-              Using advanced AI technology to help farmers diagnose and treat plant diseases, improving crop yields worldwide.
+              World-class AI-powered smart farming solution for disease detection, crop management, and agricultural excellence.
             </p>
             <div className="flex space-x-4 text-green-600">
               <a href="#" aria-label="Twitter" className="hover:text-green-800 transition-colors">
@@ -74,7 +74,7 @@ const Footer = () => {
               </div>
               <div className="flex items-center text-green-600">
                 <Mail className="h-4 w-4 mr-2 flex-shrink-0" />
-                <span className="text-sm">support@cropdoctor.com</span>
+                <span className="text-sm">support@ukulima-smart.com</span>
               </div>
               <div className="flex items-center text-green-600">
                 <Phone className="h-4 w-4 mr-2 flex-shrink-0" />
@@ -92,7 +92,7 @@ const Footer = () => {
 
         <div className={`flex flex-col ${isMobile ? 'space-y-4' : 'md:flex-row'} justify-between items-center pt-4 border-t border-green-100`}>
           <div className="text-green-700">
-            <span className="font-semibold">© 2025 Crop Doctor</span>
+            <span className="font-semibold">© 2025 UKULIMA SMART</span>
           </div>
           <div className="flex gap-4 md:gap-6">
             <Link to="/privacy" className="text-green-600 hover:text-green-800 transition-colors text-sm">Privacy</Link>

@@ -30,7 +30,7 @@ const BenefitsSection = () => {
             <span className="inline-block px-3 py-1 rounded-full bg-green-100 text-green-800 font-medium text-sm mb-4">🌟 BENEFITS</span>
             <h2 className="text-3xl font-bold text-green-800 mb-6">Grow Healthier Plants & Increase Yields 🌱</h2>
             <p className="text-lg text-green-700 mb-8">
-              Join thousands of farmers and gardeners who are using Crop Doctor to protect their plants and maximize productivity.
+              Join thousands of farmers and gardeners who are using UKULIMA SMART to protect their plants and maximize productivity.
             </p>
             
             <div className="space-y-4">

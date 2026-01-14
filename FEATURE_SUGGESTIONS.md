@@ -1,4 +1,4 @@
-# Additional Feature Suggestions for Shamba Smart Scan
+# Additional Feature Suggestions for UKULIMA SMART
 
 ## Completed Improvements ✅
 

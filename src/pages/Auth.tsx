@@ -142,10 +142,10 @@ const Auth = () => {
             <Link to="/" className="flex items-center space-x-2 text-green-700">
               <img 
                 src="/placeholder.svg" 
-                alt="Crop Doctor Logo" 
+                alt="UKULIMA SMART Logo" 
                 className="w-8 h-8 text-green-500" 
               />
-              <span className="text-xl font-bold">Crop Doctor</span>
+              <span className="text-xl font-bold">UKULIMA SMART</span>
             </Link>
           </div>
         </div>
@@ -159,9 +159,9 @@ const Auth = () => {
                 <Leaf className="h-8 w-8 text-green-600" />
               </div>
             </div>
-            <CardTitle className="text-2xl font-bold text-green-800">Welcome to Crop Doctor</CardTitle>
+            <CardTitle className="text-2xl font-bold text-green-800">Welcome to UKULIMA SMART</CardTitle>
             <CardDescription>
-              AI-powered assistant for plant disease diagnosis
+              World-class AI-powered smart farming solution
             </CardDescription>
           </CardHeader>
           <Tabs defaultValue="login" value={activeTab} onValueChange={setActiveTab} className="w-full">
@@ -304,7 +304,7 @@ const Auth = () => {
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex flex-col md:flex-row justify-between items-center">
             <div className="text-green-700 mb-4 md:mb-0">
-              <span className="font-semibold">© 2025 Crop Doctor</span>
+              <span className="font-semibold">© 2025 UKULIMA SMART</span>
             </div>
             <div className="flex space-x-6">
               <Link to="/" className="text-green-600 hover:text-green-800 transition-colors">Home</Link>
