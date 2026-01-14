@@ -1,261 +1,207 @@
-# 🌿 UKULIMA SMART 🚜✨
+UKULIMA SMART
 
-<p align="center">
-  <a href="https://ukulima-smart.vercel.app/">
-    <img alt="Vercel" src="https://img.shields.io/badge/Deployed%20on-Vercel-000?logo=vercel&style=flat-square">
-  </a>
-  <a href="https://github.com/MathewKioko/UKULIMA-SMART/blob/main/LICENSE">
-    <img alt="License: MIT" src="https://img.shields.io/badge/License-MIT-blue.svg?style=flat-square">
-  </a>
-  <a href="https://github.com/MathewKioko/UKULIMA-SMART/stargazers">
-    <img alt="GitHub Stars" src="https://img.shields.io/github/stars/MathewKioko/UKULIMA-SMART?style=flat-square">
-  </a>
-  <a href="https://github.com/MathewKioko/UKULIMA-SMART/network/members">
-    <img alt="GitHub Forks" src="https://img.shields.io/github/forks/MathewKioko/UKULIMA-SMART?style=flat-square">
-  </a>
-</p>
+UKULIMA SMART is an AI-assisted smart agriculture platform focused on **early crop disease detection**, **decision support**, and **data-driven farm management** for smallholder and large-scale farmers.
 
-Welcome to **UKULIMA SMART** — your world-class AI-powered smart farming solution for disease detection, crop management, and agricultural excellence! 🌱🚀
+The system combines **computer vision**, **real-time data**, and **domain-specific agricultural knowledge** to help farmers detect issues early, reduce losses, and improve yields.
 
-> "Revolutionizing agriculture with the power of Artificial Intelligence and Smart Technology!"
+Live Demo: [https://ukulima-smart.vercel.app](https://ukulima-smart.vercel.app)
 
-## [Product Demo Video🎬](https://www.youtube.com/watch?v=your-demo-video-id)
 
----
+ Problem Statement
 
-## 🌟 Introduction
+Farmers—especially smallholder farmers—often detect crop diseases too late due to:
 
-**UKULIMA SMART** is a cutting-edge agricultural technology platform designed to transform farming through advanced **artificial intelligence**, **machine learning**, and **smart data analytics**. Our mission is to empower farmers and agricultural professionals with tools that maximize crop yields, prevent disease outbreaks, and promote sustainable farming practices.
+* Limited access to agricultural experts
+* Lack of timely diagnostic tools
+* Poor integration of weather, disease, and crop data
+* High cost of professional farm monitoring
 
-🌍 From smallholder farmers to large-scale agricultural enterprises, UKULIMA SMART provides intelligent solutions that adapt to your unique farming needs — delivering results that matter!🙌
+Late detection leads to reduced yields, increased pesticide usage, and financial loss.
 
----
 
-## 🧠 Tech Stack ⚒
+Solution Overview
 
-Here's what powers UKULIMA SMART:
+UKULIMA SMART provides a *mobile-first, AI-powered decision support system** that enables farmers to:
 
-- **Frontend**: React / TypeScript / Tailwind CSS / Shadcn UI (Mobile-First Design)
-- **Backend**: Supabase (PostgreSQL + Real-time)
-- **AI/ML Models**: TensorFlow / PyTorch (CNN-based crop disease classifiers)
-- **Cloud & DevOps**: Vercel / AWS / Docker
-- **Authentication**: Supabase Auth / OAuth 2.0
-- **Integrations**: M-Pesa Payments, Weather APIs, Drone Analytics
-- **Real-time Features**: WebSockets, Live Chat, Notifications
+* Detect crop diseases using images
+* Receive treatment recommendations
+* Track plant health over time
+* Access weather-driven farming insights
+* Connect with experts and farming communities
 
----
+The platform is designed to be scalable, extensible, and region-aware, with a focus on African farming contexts.
 
-## 🚀 Features💯
 
-✅ **AI-Powered Disease Detection** – Identifies 40+ crop diseases with 95%+ accuracy using computer vision  
-✅ **Smart Treatment Recommendations** – Science-backed treatment plans from agricultural experts  
-✅ **Real-time Weather Intelligence** – Hyper-local weather data and farming recommendations  
-✅ **Community Forum** – Connect with fellow farmers, share experiences, and learn together  
-✅ **Live Expert Consultations** – Video calls with plant pathologists and agricultural scientists  
-✅ **Comprehensive Crop Encyclopedia** – 100+ diseases, pests, and treatment guides  
-✅ **Educational Video Library** – Tutorials on organic farming, pest control, and modern techniques  
-✅ **Plant Health Timeline** – Track and monitor crop health over entire growing seasons  
-✅ **Drone Analytics Integration** – Aerial imagery analysis for large-scale farm monitoring  
-✅ **ML-Based Yield Prediction** – Data-driven forecasts to optimize harvest planning  
-✅ **Pest Prediction & Early Warning** – Proactive alerts for potential pest infestations  
-✅ **Subscription Plans & M-Pesa Payments** – Seamless payment integration for Kenyan farmers  
+Core Features
+
+ AI & Decision Support
+
+* Image-based crop disease detection using CNN models
+* Severity classification and confidence scoring
+* Treatment and prevention recommendations
+
+Farm Intelligence
+
+* Real-time and forecasted weather insights
+* Crop health history and timelines
+* Yield prediction (ML-based, experimental)
+
+Platform Capabilities
+
+* Authentication and user management
+* Subscription plans with M-Pesa payments
+* Community discussion forums
+* Educational content and tutorials
 
 ---
 
-## 🧪 How It Works
-
-1. 📷 **Capture** – Snap a photo of your crop using our mobile app
-2. 🧠 **AI Analysis** – Our deep learning models analyze the image in seconds
-3. 🧾 **Diagnosis** – Get instant disease identification with severity assessment
-4. 💊 **Treatment Plan** – Receive actionable treatment recommendations
-5. 📊 **Track & Improve** – Monitor progress and optimize future harvests
-
----
-
-## 🎁 Benefits
-
-💡 **Early Disease Detection** – Catch problems before they devastate your crops  
-💰 **Cost Optimization** – Reduce pesticide costs and minimize crop losses  
-📲 **24/7 Accessibility** – Expert crop advice available anytime, anywhere  
-👩‍🔬 **Expertise On Demand** – Access agricultural scientists without travel  
-🌐 **Community Knowledge** – Learn from thousands of farmers worldwide  
-📈 **Increased Yields** – Data-driven insights to maximize your harvest  
-
----
-
-## 💬 Testimonials
-
-> 🧑‍🌾 **James M.**, Coffee Farmer  
-> "UKULIMA SMART saved my entire coffee harvest! The AI detected leaf rust early, and the treatment plan worked perfectly. My yields increased by 30% this season!"  
-
-> 🌸 **Aisha K.**, Greenhouse Owner  
-> "The video tutorials and community forum are incredible. I've transitioned to organic farming using UKULIMA SMART's guidance, and my produce commands premium prices!"  
-
-> 🚜 **Robert D.**, Large-Scale Agronomist  
-> "The drone analytics integration helps us monitor thousands of hectares efficiently. The ML predictions are surprisingly accurate and have optimized our entire operation."  
-
----
-
-## 📸 Screenshots
-
-Explore our interface in the `screenshots/` folder:
-
-- **Disease Detection Interface** 🔬  
-- **AI Analysis Dashboard** 📊  
-- **Weather Intelligence Widget** 🌤️  
-- **Expert Consultation UI** 👨‍⚕️  
-- **Community Forum** 🗣️  
-- **Video Tutorial Library** 🎬  
-- **Plant Timeline Tracker** 📅  
-- **Subscription & Payments** 💳  
-
----
-
-## 🏗️ Architecture Overview
+System Architecture
 
 ```
-UKULIMA SMART Platform Architecture:
-
-┌─────────────────────────────────────────────────────────┐
-│                    Frontend Layer                        │
-│  React + TypeScript + Tailwind CSS + Shadcn UI          │
-└─────────────────────────────────────────────────────────┘
-                           │
-                           ▼
-┌─────────────────────────────────────────────────────────┐
-│                   API Gateway                            │
-│           Supabase REST / GraphQL API                   │
-└─────────────────────────────────────────────────────────┘
-                           │
-          ┌────────────────┼────────────────┐
-          ▼                ▼                ▼
-┌─────────────┐    ┌─────────────┐    ┌─────────────┐
-│  AI/ML      │    │  Database   │    │  External   │
-│  Services   │    │  (Postgres) │    │  APIs       │
-│  (TensorFlow│    │             │    │  Weather,   │
-│   PyTorch)  │    │             │    │  M-Pesa)    │
-└─────────────┘    └─────────────┘    └─────────────┘
+Client (Web / Mobile)
+        |
+        v
+Frontend (React + TypeScript)
+        |
+        v
+API Layer (Supabase REST / Realtime)
+        |
+        +------------------+
+        |                  |
+        v                  v
+AI/ML Services        PostgreSQL Database
+(TensorFlow/PyTorch) (Users, Crops, Images,
+                       Predictions, Payments)
+        |
+        v
+External Services
+(Weather APIs, M-Pesa)
 ```
 
----
+ Design Principles
 
-## 👥 Get Involved
-
-🌟 **Join the Community**  
-Whether you're a farmer, developer, data scientist, or agricultural enthusiast — there's a place for you in the UKULIMA SMART community!
-
-🛠️ **Contribute to Development**  
-- 🐛 Report bugs and issues  
-- 💡 Suggest new features  
-- 📝 Improve documentation  
-- 🔧 Submit pull requests  
-
-📬 **Contact the Team**  
-Have questions or partnership inquiries? Reach out via GitHub Issues or email us at hello@ukulima-smart.com
+* Backend as the source of truth
+* Stateless frontend
+* AI services isolated from core business logic
+* Clear separation between data ingestion and inference
 
 ---
 
-## 📦 Installation & Setup
+Tech Stack
 
-### Prerequisites
-- Node.js 18+ and npm/yarn
-- Supabase account
-- M-Pesa API credentials (optional, for payments)
+Frontend
 
-### Quick Start
+* React
+* TypeScript
+* Tailwind CSS
+* Shadcn UI
+
+Backend & Data
+
+* Supabase (PostgreSQL + Auth + Realtime)
+* REST APIs
+* Role-based access control
+
+AI / ML
+
+* TensorFlow / PyTorch
+* CNN-based image classifiers
+* Model inference via API layer
+
+Cloud & DevOps
+
+* Vercel (Frontend hosting)
+* Docker (model experimentation)
+* AWS (planned for model serving)
+
+Integrations
+
+* M-Pesa Payments
+* Weather APIs
+* (Planned) Drone imagery ingestion
+
+
+Disease Detection Flow
+
+1. User captures or uploads a crop image
+2. Image is sent to the inference service
+3. ML model performs classification
+4. Disease type and severity are returned
+5. System generates treatment guidance
+6. Result is stored for historical tracking
+
+---
+
+Installation & Local Setup
+ Prerequisites
+
+* Node.js 18+
+* Supabase account
+* API keys for weather and payments (optional)
+
+### Setup
 
 ```bash
-# Clone the repository
 git clone https://github.com/MathewKioko/UKULIMA-SMART.git
-
-# Navigate to project directory
 cd UKULIMA-SMART
-
-# Install dependencies
 npm install
-
-# Set up environment variables
 cp .env.example .env
-# Edit .env with your Supabase and API credentials
-
-# Start development server
 npm run dev
-
-# Build for production
-npm run build
 ```
 
 ### Environment Variables
 
 ```env
-VITE_SUPABASE_URL=your_supabase_url
-VITE_SUPABASE_ANON_KEY=your_supabase_anon_key
-VITE_WEATHER_API_KEY=your_weather_api_key
-VITE_MPESA_CONSUMER_KEY=your_mpesa_consumer_key
-VITE_MPESA_CONSUMER_SECRET=your_mpesa_consumer_secret
+VITE_SUPABASE_URL=
+VITE_SUPABASE_ANON_KEY=
+VITE_WEATHER_API_KEY=
+VITE_MPESA_CONSUMER_KEY=
+VITE_MPESA_CONSUMER_SECRET=
 ```
 
----
 
-## 🗺️ Roadmap
+Limitations (Current)
 
-- [ ] **Mobile App** (React Native) - Native iOS/Android apps
-- [ ] **Offline Mode** - Core features work without internet
-- [ ] **Multi-language Support** - Swahili, French, Arabic, and more
-- [ ] **IoT Integration** - Connect with soil sensors and smart irrigation
-- [ ] **Marketplace** - Buy/sell agricultural products
-- [ ] **Blockchain Traceability** - Farm-to-table product tracking
-- [ ] **Advanced Analytics** - Predictive insights and trend analysis
+* Model accuracy depends on image quality
+* Limited crop and disease coverage
+* No offline support
+* Experimental yield prediction models
 
----
+These are known constraints and part of the roadmap.
 
-## 📢 Call to Action
 
-Ready to transform your farming operation?  
+Roadmap
 
-**👉 [Visit Our Website](https://ukulima-smart.vercel.app)** or **[Explore the Repository](https://github.com/MathewKioko/UKULIMA-SMART)** and join the agricultural revolution today! 🌾🤖🚀
+* Mobile application (React Native)
+* Offline-first disease detection
+* Multilingual support (Swahili first)
+* IoT soil and irrigation sensor integration
+* Advanced analytics dashboards
+* Supply-chain and produce traceability
 
----
+Contribution Guidelines
 
-## 📜 License
+Contributions are welcome in the following areas:
 
-This project is licensed under the MIT License — see the [LICENSE](LICENSE) file for details.
+* Model training and evaluation
+* Dataset curation
+* Frontend UX improvements
+* Documentation
+* Agricultural domain expertise
 
----
+Please open an issue before submitting major changes.
 
-## 🤝 Contributing
 
-We welcome contributions from developers, designers, agricultural experts, and the farming community! 
+ License
 
-### How to Contribute:
+MIT License. See [LICENSE](LICENSE).
 
-1. 🍴 **Fork** the repository
-2. 👯 **Clone** your fork:  
-   ```bash
-   git clone https://github.com/YOUR-USERNAME/UKULIMA-SMART.git
-   ```
-3. 🔧 **Create a feature branch**:  
-   ```bash
-   git checkout -b feature/amazing-new-feature
-   ```
-4. 📝 **Make your changes** and commit them
-5. 🚀 **Push** to your fork and submit a **Pull Request**
 
-Check our [Contributing Guide](CONTRIBUTING.md) for more details.
 
----
+Author
 
-## 📞 Support
+**Mathew Kioko**
+Software Engineer | Backend & Systems | Applied AI
+GitHub: [https://github.com/MathewKioko](https://github.com/MathewKioko)
 
-- 📧 Email: support@ukulima.com
-- 💬 WhatsApp Community: [Join Here](https://chat.whatsapp.com/your-community-link)
-- 📱 Twitter: [@UKULIMASMART](https://twitter.com/UKULIMASMART)
-
----
-
-**Happy Farming!** 🌻💚🌾
-
-**Made with ❤️ by Mathew Kioko and the UKULIMA SMART Team** 🌍🤝
-
-[![Follow on Twitter](https://img.shields.io/badge/Twitter-@UKULIMASMART-blue?style=social&logo=twitter)](https://twitter.com/UKULIMASMART)
 
